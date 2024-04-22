@@ -4,7 +4,7 @@ import by.dmitry_skachkov.userse_rvice.core.dto.UserLoginDTO;
 
 public interface IUserService {
 
-    void register(UserLoginDTO userLoginDTO);
+//    void register(UserLoginDTO userLoginDTO);
 
     String logIn(UserLoginDTO userLoginDTO);
 }

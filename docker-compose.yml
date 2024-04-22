@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  db:
+    build: postgresql
+    image: test-task_postgresql:1.0.0
+    restart: always
+    environment:
+      POSTGRES_DB: test-task
+      POSTGRES_USER: dmitry
+      POSTGRES_PASSWORD: dmitry
+
+    networks:
+      - test-task
+  pgadmin:
+    build: pgadmin
+    image: test-task_pgadmin:1.0.0
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: dmitry
+    ports:
+      - "82:80"
+    networks:
+      - test-task
+  user-service:
+    build: user-service
+    image: test-task_user-service:1.0.3
+    ports:
+      - "8081:8081"
+    depends_on:
+      - db
+    networks:
+      - test-task
+networks:
+  test-task:
+    name: test-task
+    driver: bridge

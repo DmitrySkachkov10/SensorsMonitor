@@ -1,6 +1,7 @@
 package by.dmitry_skachkov.userse_rvice.core.exceptions;
 
 import org.springframework.http.HttpStatusCode;
+
 public class TokenException extends RuntimeException {
 
     private HttpStatusCode httpStatusCode;

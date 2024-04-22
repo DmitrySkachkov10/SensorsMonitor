@@ -1,17 +1,9 @@
 spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/test-task
-    username: postgres
-    password: postgres
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        ddl-auto: create
-
+  profiles:
+    active:
+      - docker
 server:
-  port: 8080
+  port: 8081
 
 app:
   jwt:

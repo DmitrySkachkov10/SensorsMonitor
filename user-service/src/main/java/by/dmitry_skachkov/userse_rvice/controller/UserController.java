@@ -21,9 +21,10 @@ public class UserController {
         return new ResponseEntity<>(service.logIn(loginDTO), HttpStatus.OK);
     }
 
-    @PostMapping("/registration")
-    public ResponseEntity<String> registrate(@RequestBody UserLoginDTO loginDTO) {
-        service.register(loginDTO);
-        return new ResponseEntity<>("Пользователь зарегистрирован", HttpStatus.CREATED);
-    }
+//    @PostMapping("/registration")
+//    public ResponseEntity<String> registrate(@RequestBody UserLoginDTO loginDTO) {
+//        service.register(loginDTO);
+//        return new ResponseEntity<>("Пользователь зарегистрирован", HttpStatus.CREATED);
+//    }
+
 }

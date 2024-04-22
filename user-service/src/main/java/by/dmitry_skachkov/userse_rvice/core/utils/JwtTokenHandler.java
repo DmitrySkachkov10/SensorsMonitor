@@ -10,7 +10,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
-
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -20,7 +19,6 @@ public class JwtTokenHandler {
     private final JWTProperty property;
 
     private final ObjectMapper objectMapper;
-
 
     public JwtTokenHandler(JWTProperty property, ObjectMapper objectMapper) {
         this.property = property;
@@ -43,13 +41,11 @@ public class JwtTokenHandler {
         }
     }
 
-
     private void addToContext(UserSecurity userSecurity) {
         Authentication authentication =
                 new UsernamePasswordAuthenticationToken(userSecurity, null, userSecurity.getAuthorities());
         SecurityContextHolder.getContext().setAuthentication(authentication);
     }
-
 
     public UserSecurity getUser(String token) {
         Claims claims = Jwts.parser()
