@@ -18,6 +18,7 @@
 
     <modules>
         <module>user-service</module>
+        <module>sensors-service</module>
     </modules>
 
     <properties>
@@ -75,6 +76,11 @@
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>0.9.1</version>
+        </dependency>
+        <dependency>
+            <groupId>by.dmitry_skachkov</groupId>
+            <artifactId>exception</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 
