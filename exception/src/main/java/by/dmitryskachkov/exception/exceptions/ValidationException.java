@@ -1,18 +1,18 @@
-package by.dmitry_skachkov.user_service.core.exceptions;
+package by.dmitryskachkov.exception.exceptions;
 
 import org.springframework.http.HttpStatusCode;
 
-public class TokenException extends RuntimeException {
+public class ValidationException extends RuntimeException {
 
     private HttpStatusCode httpStatusCode;
 
-    public TokenException(String message) {
-        super(message);
-    }
-
-    public TokenException(String message, HttpStatusCode httpStatusCode) {
+    public ValidationException(String message, HttpStatusCode httpStatusCode) {
         super(message);
         this.httpStatusCode = httpStatusCode;
+    }
+
+    public ValidationException(String message) {
+        super(message);
     }
 
     public HttpStatusCode getHttpStatusCode() {
@@ -28,4 +28,3 @@ public class TokenException extends RuntimeException {
         return super.getMessage();
     }
 }
-
