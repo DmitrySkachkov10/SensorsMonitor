@@ -1,6 +1,6 @@
-package by.dmitry_skachkov.userse_rvice.repo.entity;
+package by.dmitry_skachkov.user_service.repo.entity;
 
-import by.dmitry_skachkov.userse_rvice.core.enums.Role;
+import by.dmitry_skachkov.user_service.core.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 

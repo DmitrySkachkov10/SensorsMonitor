@@ -1,4 +1,4 @@
-package by.dmitry_skachkov.userse_rvice.core.utils;
+package by.dmitry_skachkov.user_service.core.utils;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;

@@ -1,6 +1,6 @@
-package by.dmitry_skachkov.userse_rvice.core.utils;
+package by.dmitry_skachkov.user_service.core.utils;
 
-import by.dmitry_skachkov.userse_rvice.core.exceptions.TokenException;
+import by.dmitry_skachkov.user_service.core.exceptions.TokenException;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

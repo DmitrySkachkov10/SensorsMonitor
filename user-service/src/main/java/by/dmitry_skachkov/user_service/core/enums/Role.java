@@ -1,4 +1,4 @@
-package by.dmitry_skachkov.userse_rvice.core.enums;
+package by.dmitry_skachkov.user_service.core.enums;
 
 public enum Role {
 

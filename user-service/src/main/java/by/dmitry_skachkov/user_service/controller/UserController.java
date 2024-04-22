@@ -1,7 +1,7 @@
-package by.dmitry_skachkov.userse_rvice.controller;
+package by.dmitry_skachkov.user_service.controller;
 
-import by.dmitry_skachkov.userse_rvice.core.dto.UserLoginDTO;
-import by.dmitry_skachkov.userse_rvice.service.api.IUserService;
+import by.dmitry_skachkov.user_service.core.dto.UserLoginDTO;
+import by.dmitry_skachkov.user_service.service.api.IUserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

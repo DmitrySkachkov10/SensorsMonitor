@@ -1,4 +1,4 @@
-package by.dmitry_skachkov.userse_rvice;
+package by.dmitry_skachkov.user_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

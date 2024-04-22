@@ -1,12 +1,12 @@
-package by.dmitry_skachkov.userse_rvice.service;
+package by.dmitry_skachkov.user_service.service;
 
-import by.dmitry_skachkov.userse_rvice.core.dto.UserLoginDTO;
-import by.dmitry_skachkov.userse_rvice.core.exceptions.ValidationException;
-import by.dmitry_skachkov.userse_rvice.core.utils.JwtTokenHandler;
-import by.dmitry_skachkov.userse_rvice.core.utils.UserSecurity;
-import by.dmitry_skachkov.userse_rvice.repo.api.IUserRepo;
-import by.dmitry_skachkov.userse_rvice.repo.entity.UserEntity;
-import by.dmitry_skachkov.userse_rvice.service.api.IUserService;
+import by.dmitry_skachkov.user_service.core.dto.UserLoginDTO;
+import by.dmitry_skachkov.user_service.core.exceptions.ValidationException;
+import by.dmitry_skachkov.user_service.core.utils.JwtTokenHandler;
+import by.dmitry_skachkov.user_service.core.utils.UserSecurity;
+import by.dmitry_skachkov.user_service.repo.api.IUserRepo;
+import by.dmitry_skachkov.user_service.repo.entity.UserEntity;
+import by.dmitry_skachkov.user_service.service.api.IUserService;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 

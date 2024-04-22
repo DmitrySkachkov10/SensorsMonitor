@@ -1,6 +1,6 @@
-package by.dmitry_skachkov.userse_rvice.config;
+package by.dmitry_skachkov.user_service.config;
 
-import by.dmitry_skachkov.userse_rvice.core.utils.JwtFilter;
+import by.dmitry_skachkov.user_service.core.utils.JwtFilter;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
-package by.dmitry_skachkov.userse_rvice.service.api;
+package by.dmitry_skachkov.user_service.service.api;
 
-import by.dmitry_skachkov.userse_rvice.core.dto.UserLoginDTO;
+import by.dmitry_skachkov.user_service.core.dto.UserLoginDTO;
 
 public interface IUserService {
 

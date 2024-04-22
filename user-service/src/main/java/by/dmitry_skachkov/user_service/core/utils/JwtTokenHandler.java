@@ -1,7 +1,7 @@
-package by.dmitry_skachkov.userse_rvice.core.utils;
+package by.dmitry_skachkov.user_service.core.utils;
 
-import by.dmitry_skachkov.userse_rvice.config.properties.JWTProperty;
-import by.dmitry_skachkov.userse_rvice.core.exceptions.TokenException;
+import by.dmitry_skachkov.user_service.config.properties.JWTProperty;
+import by.dmitry_skachkov.user_service.core.exceptions.TokenException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.*;

@@ -1,4 +1,4 @@
-package by.dmitry_skachkov.userse_rvice.core.exceptions;
+package by.dmitry_skachkov.user_service.core.exceptions;
 
 import org.springframework.http.HttpStatusCode;
 

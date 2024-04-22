@@ -1,4 +1,4 @@
-package by.dmitry_skachkov.userse_rvice.core.dto;
+package by.dmitry_skachkov.user_service.core.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

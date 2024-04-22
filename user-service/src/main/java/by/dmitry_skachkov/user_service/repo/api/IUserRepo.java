@@ -1,6 +1,6 @@
-package by.dmitry_skachkov.userse_rvice.repo.api;
+package by.dmitry_skachkov.user_service.repo.api;
 
-import by.dmitry_skachkov.userse_rvice.repo.entity.UserEntity;
+import by.dmitry_skachkov.user_service.repo.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
