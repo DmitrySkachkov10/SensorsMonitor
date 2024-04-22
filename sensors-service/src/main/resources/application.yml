@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active:
+      - local
+
+app:
+  jwt:
+    secret: dmitry
+    issuer: dmitry
