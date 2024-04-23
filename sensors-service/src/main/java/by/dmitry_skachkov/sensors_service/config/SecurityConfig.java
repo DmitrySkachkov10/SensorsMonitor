@@ -39,6 +39,7 @@ public class SecurityConfig {
                 });
 
         http.authorizeRequests(requests -> requests
+                .requestMatchers("/basic/data/load").permitAll()
                 .anyRequest().authenticated()
         );
 

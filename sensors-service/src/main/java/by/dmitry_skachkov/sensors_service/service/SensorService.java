@@ -6,7 +6,7 @@ import by.dmitry_skachkov.sensors_service.repo.api.ISensorRepo;
 import by.dmitry_skachkov.sensors_service.repo.entity.SensorEntity;
 import by.dmitry_skachkov.sensors_service.repo.entity.SensorTypeEntity;
 import by.dmitry_skachkov.sensors_service.service.api.ISensorService;
-import by.dmitry_skachkov.sensors_service.service.api.ISensorTypeRepo;
+import by.dmitry_skachkov.sensors_service.repo.api.ISensorTypeRepo;
 import by.dmitryskachkov.exception.exceptions.ValidationException;
 import jakarta.transaction.Transactional;
 import org.springframework.data.domain.Pageable;
