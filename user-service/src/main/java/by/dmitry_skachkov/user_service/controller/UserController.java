@@ -5,7 +5,9 @@ import by.dmitry_skachkov.user_service.service.api.IUserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/user")
 public class UserController {

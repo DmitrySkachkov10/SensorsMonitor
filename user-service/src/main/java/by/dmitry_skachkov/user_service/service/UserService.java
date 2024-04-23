@@ -1,6 +1,7 @@
 package by.dmitry_skachkov.user_service.service;
 
 import by.dmitry_skachkov.user_service.core.dto.UserLoginDTO;
+import by.dmitry_skachkov.user_service.core.enums.Role;
 import by.dmitry_skachkov.user_service.core.utils.JwtTokenHandler;
 import by.dmitry_skachkov.user_service.core.utils.UserSecurity;
 import by.dmitry_skachkov.user_service.repo.api.IUserRepo;
@@ -8,9 +9,11 @@ import by.dmitry_skachkov.user_service.repo.entity.UserEntity;
 import by.dmitry_skachkov.user_service.service.api.IUserService;
 
 import by.dmitryskachkov.exception.exceptions.ValidationException;
+import jakarta.transaction.Transactional;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
 
 
 @Service

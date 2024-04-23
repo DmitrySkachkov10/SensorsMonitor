@@ -39,9 +39,7 @@ public class SecurityConfig {
                 });
 
         http.authorizeRequests(requests -> requests
-
-                .requestMatchers("/user/login").permitAll()
-                .anyRequest().hasRole("ADMIN")
+                .anyRequest().authenticated()
         );
 
         http.addFilterBefore(
