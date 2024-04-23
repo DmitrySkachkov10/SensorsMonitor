@@ -1,0 +1,14 @@
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/UserServiceApplication.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/service/UserService.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/controller/GlobalHandler.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/core/enums/Role.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/core/utils/JwtFilter.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/core/utils/JwtTokenHandler.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/repo/entity/UserEntity.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/config/SecurityConfig.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/core/utils/UserSecurity.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/controller/UserController.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/service/api/IUserService.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/config/properties/JWTProperty.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/core/dto/UserLoginDTO.java
+/Users/dmitrijskackov/Desktop/work/SensorsMonitor/user-service/src/main/java/by/dmitry_skachkov/user_service/repo/api/IUserRepo.java

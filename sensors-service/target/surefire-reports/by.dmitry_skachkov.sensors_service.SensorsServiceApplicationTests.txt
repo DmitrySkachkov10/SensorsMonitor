@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: by.dmitry_skachkov.sensors_service.SensorsServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.847 s - in by.dmitry_skachkov.sensors_service.SensorsServiceApplicationTests

@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active:
+      - docker
+
+app:
+  jwt:
+    secret: dmitry
+    issuer: dmitry

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "app.jwt",
+      "type": "by.dmitry_skachkov.sensors_service.config.properties.JWTProperty",
+      "sourceType": "by.dmitry_skachkov.sensors_service.config.properties.JWTProperty"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.jwt.issuer",
+      "type": "java.lang.String",
+      "sourceType": "by.dmitry_skachkov.sensors_service.config.properties.JWTProperty"
+    },
+    {
+      "name": "app.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "by.dmitry_skachkov.sensors_service.config.properties.JWTProperty"
+    }
+  ],
+  "hints": []
+}
